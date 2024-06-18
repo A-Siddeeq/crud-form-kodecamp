@@ -42,7 +42,7 @@ const UserData = ({ selectedUser, onSave }) => {
           />
           <label htmlFor="age">Your age</label>
           <input 
-            type="text"
+            type="number"
             name="age"
             value={age}
             onChange={(e) => setAge(e.target.value)}
